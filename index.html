@@ -37,6 +37,13 @@
     </div>
 
 
+  <!-- 
+    - #FACEBOOK
+  -->
+
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v18.0" nonce="OH03i45n"></script>
+
 
   <!-- 
     - #HEADER
@@ -96,10 +103,10 @@
     <article>
 
       <!-- 
-        - #HERO
+        - #ACCEUIL
       -->
 
-      <section class="hero" id="acceuil">
+      <section class="acceuil" id="acceuil">
 	  
 		<img src="./assets/images/busard.png" alt="Busard Saint-Martin" style="width: 100%; max-width: 1200px;">
 		
@@ -111,21 +118,21 @@
 			</div>
 			<div class="col-70">
 				<!-- Contenu de la colonne 70% -->
-				<h2 class="hero-title">
-				  <span>Bienvenus au</span>
+				<h2 class="acceuil-title">
+				  <span>Bienvenue sur le site du</span>
 				  <strong>GOA</strong> le Groupe Ornithologique des Avaloirs
 				</h2>
 			</div>
 
 		<!-- 
-          <div class="hero-content">
+          <div class="acceuil-content">
 			<img src="./assets/images/logo_goa.gif" alt="Logo GOA">
-            <h2 class="hero-title">
+            <h2 class="acceuil-title">
               <span>Bienvenus au</span>
               <strong>GOA</strong> le Groupe Ornithologique des Avaloirs
             </h2>
 
-            <p class="hero-text">
+            <p class="acceuil-text">
               Une super association !
             </p>
 
@@ -367,15 +374,23 @@
       <section class="section blog" id="blog">
         <div class="container">
 
-          <p class="section-subtitle">Latest News</p>
+          <p class="section-subtitle">Dernières nouvelles</p>
 
-          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+          <h2 class="h2 section-title">Suivez-nous sur notre page Facebook</h2>
 
-          <p class="section-text">
-            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
-          </p>
-
-          <ul class="blog-list">
+		  <div class="fb-page" style="display: flex; align-items: center; justify-content: center;"
+			data-href="https://www.facebook.com/groupe.ornithologique.avaloirs/"
+			data-tabs="timeline" data-width="5000" data-height="500"
+			data-small-header="false" data-adapt-container-width="false"
+			data-hide-cover="false" data-show-facepile="false">
+				<blockquote cite="https://www.facebook.com/groupe.ornithologique.avaloirs/" class="fb-xfbml-parse-ignore">
+					<a href="https://www.facebook.com/groupe.ornithologique.avaloirs/">Groupe Ornithologique des Avaloirs</a>
+				</blockquote>
+		  </div>
+		  
+		  <br><br>
+          
+		  <ul class="blog-list">
 
             <li>
               <div class="blog-card">
@@ -383,14 +398,14 @@
                 <figure class="card-banner">
                   <a href="#">
                     <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
-                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                      alt="Des supers sorties" class="img-cover">
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="#" class="card-tag">Observation nature</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">Des supers sorties</a>
                 </h3>
 
               </div>
@@ -406,10 +421,10 @@
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="#" class="card-tag">Ornithologie</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">Des supers photos</a>
                 </h3>
 
               </div>
@@ -425,15 +440,128 @@
                   </a>
                 </figure>
 
-                <a href="#" class="card-tag">Web Development</a>
+                <a href="#" class="card-tag">Mares communales</a>
 
                 <h3 class="card-title">
-                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                  <a href="#">Préservation d'un patrimoine menacé</a>
                 </h3>
 
               </div>
             </li>
 
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="Des supers sorties" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Observation nature</a>
+
+                <h3 class="card-title">
+                  <a href="#">Des supers sorties</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Ornithologie</a>
+
+                <h3 class="card-title">
+                  <a href="#">Des supers photos</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Mares communales</a>
+
+                <h3 class="card-title">
+                  <a href="#">Préservation d'un patrimoine menacé</a>
+                </h3>
+
+              </div>
+            </li>
+			
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="Des supers sorties" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Observation nature</a>
+
+                <h3 class="card-title">
+                  <a href="#">Des supers sorties</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Ornithologie</a>
+
+                <h3 class="card-title">
+                  <a href="#">Des supers photos</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Mares communales</a>
+
+                <h3 class="card-title">
+                  <a href="#">Préservation d'un patrimoine menacé</a>
+                </h3>
+
+              </div>
+            </li>
           </ul>
 
         </div>
