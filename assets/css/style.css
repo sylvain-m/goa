@@ -33,6 +33,22 @@
     white-space: nowrap;
 }
 
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-2px, -2px); }
+  50% { transform: translate(2px, 2px); }
+  75% { transform: translate(-2px, 2px); }
+  100% { transform: translate(2px, -2px); }
+}
+
+.image-shake {
+  position: relative;
+  display: inline-block;
+  animation: shake 5s infinite; /* ajustez la durée et le type d'animation selon vos préférences */
+}
+
+
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
